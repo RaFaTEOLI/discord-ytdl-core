@@ -1,6 +1,6 @@
 {
     "name": "@rafateoli/discord-ytdl-core",
-    "version": "5.0.5",
+    "version": "5.0.6",
     "description": "Simple ytdl wrapper for discord bots with custom ffmpeg args support.",
     "main": "index.js",
     "types": "index.d.ts",
