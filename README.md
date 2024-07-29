@@ -17,10 +17,10 @@ $ npm i ytdl-core
 ## Install discord ytdl core
 
 ```sh
-$ npm i discord-ytdl-core
+$ npm i @rafateoli/discord-ytdl-core
 ```
 
-[https://www.npmjs.com/package/discord-ytdl-core](https://www.npmjs.com/package/discord-ytdl-core)
+[https://www.npmjs.com/package/@rafateoli/discord-ytdl-core](https://www.npmjs.com/package/@rafateoli/discord-ytdl-core)
 
 # Opus [optional]
 
@@ -87,7 +87,7 @@ This package provides 4 extra options excluding ytdl-core options.
 ## Playing Opus Encoded Stream
 
 ```js
-const { ytdl } = require('discord-ytdl-core');
+const { ytdl } = require('@rafateoli/discord-ytdl-core');
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -124,7 +124,7 @@ client.login('TOKEN');
 ## Unknown Stream
 
 ```js
-const { ytdl } = require('discord-ytdl-core');
+const { ytdl } = require('@rafateoli/discord-ytdl-core');
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -162,7 +162,7 @@ client.login('TOKEN');
 ## Converted Stream
 
 ```js
-const { ytdl } = require('discord-ytdl-core');
+const { ytdl } = require('@rafateoli/discord-ytdl-core');
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -199,7 +199,7 @@ client.login('TOKEN');
 # Downloading the video
 
 ```js
-const { ytdl } = require('discord-ytdl-core');
+const { ytdl } = require('@rafateoli/discord-ytdl-core');
 const { createWriteStream } = require('fs');
 
 const url = 'https://www.youtube.com/watch?v=QnL5P0tFkwM';
@@ -216,7 +216,7 @@ stream.pipe(createWriteStream(__dirname + '/test.mp3'));
 # Arbitrary Stream
 
 ```js
-const { ytdl } = require('discord-ytdl-core');
+const { ytdl } = require('@rafateoli/discord-ytdl-core');
 const Discord = require('discord.js');
 const client = new Discord.Client();
 

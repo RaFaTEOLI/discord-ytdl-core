@@ -33,7 +33,7 @@ interface StreamOptions {
  * Create an opus stream for your video with provided encoder args
  * @param url - YouTube URL of the video
  * @param options - YTDL options
- * @example const ytdl = require("discord-ytdl-core");
+ * @example const ytdl = require("@rafateoli/discord-ytdl-core");
  * const stream = ytdl("VIDEO_URL", {
  *     seek: 3,
  *     encoderArgs: ["-af", "bass=g=10"],
