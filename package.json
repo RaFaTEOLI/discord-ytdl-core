@@ -48,10 +48,10 @@
         "prism-media": "^1.2.9"
     },
     "devDependencies": {
+        "@distube/ytdl-core": "^4.14.3",
         "@types/node": "^14.14.31",
         "discord.js": "^12.5.3",
         "ffmpeg-static": "^4.2.6",
-        "node-opus": "^0.3.2",
-        "@distube/ytdl-core": "^4.13.5"
+        "node-opus": "^0.3.2"
     }
 }
